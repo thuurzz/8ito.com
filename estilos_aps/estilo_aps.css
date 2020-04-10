@@ -1,0 +1,250 @@
+/*default*/
+
+body{
+  background-color: #F3FBFE;
+  font-family: 'Baloo Bhai', cursive;
+}
+
+#container{
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.centraliza_cabecalhoEnav, .centraliza_conteudo_claro, .centraliza_rodape   {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+h1 {
+    color:#251840;
+    font-size: 80px;
+    box-sizing: border-box;
+
+}
+
+h2   {
+  color: #18D9A2;
+  font-size: 45px;
+  padding: 40px;
+
+}
+
+h1 a {
+  color: #251840;
+  text-decoration: none;
+
+}
+
+h1 a:hover {
+  text-decoration: underline;
+  font-weight: bold;
+  color: #18D9A2;
+}
+
+/*end default*/
+
+
+/*header*/
+
+.centraliza_cabecalhoEnav {
+  color: #251840;
+}
+
+.centraliza_cabecalhoEnav a {
+  color: #251840;
+  text-decoration: none;
+}
+.centraliza_cabecalhoEnav nav {
+    height: 90px;
+    text-align: right;
+    font-size: 25px;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.centraliza_cabecalhoEnav nav ul li   {
+    display: inline-block;
+    line-height: 50px;
+    text-align: center;
+    padding: 15px;
+}
+
+.centraliza_cabecalhoEnav nav ul li a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+    color: #18D9A2;
+}
+
+.centraliza_cabecalhoEnav header{
+    height: 100px;
+    line-height: 100px;
+    padding-left: 50px;
+    box-sizing: border-box;
+}
+
+
+/*end header*/
+
+/*body*/
+
+
+.centraliza_conteudo_claro section {
+    display: inline-block;
+    float: left;
+    width: 50%;
+    background-color: #251840;
+    height: 730px;
+
+}
+
+.centraliza_conteudo_claro section.direito {
+    text-align: center;
+}
+
+
+.centraliza_conteudo_claro .conteudo_dosite   {
+    box-sizing: border-box;
+}
+
+
+.centraliza_conteudo_claro .conteudo_dosite p {
+    color: whitesmoke;
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+    padding: 40px;
+    box-sizing: border-box;
+    line-height: 1.7;
+    text-align: justify;
+
+}
+
+
+.centraliza_conteudo_claro img {
+    padding: 30%;
+    text-align: center;
+}
+
+.centraliza_conteudo_claro table  {
+    padding: 25%;
+    text-align: left;
+}
+
+
+
+form {
+    background-color: whitesmoke;
+    border-radius: 10px;
+    color: #251840;
+    font-size: 20px;
+    padding: 30px;
+    margin: auto;
+    margin-top: 5%;
+    width: 80% !important;
+    font-family: "Baloo Bhai", sans-serif;
+
+}
+
+input, textarea {
+			border: 1;
+			outline: none;
+			width: 100%;
+      font-family: "Baloo Bhai", sans-serif;
+      font-size: 20px;
+      border-radius: 10px;
+      padding: 5px;
+
+}
+
+label {
+  padding: 5px;
+}
+
+.painel_card {
+  text-align: left;
+  background-color: whitesmoke;
+  border-radius: 10px;
+  padding: 30px;
+  margin: auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  height: auto;
+  width: 70% !important;
+  font-family: "Baloo Bhai", sans-serif;
+
+}
+
+.painel_card td {
+  padding: 3px;
+}
+
+.painel_card .coluna_1 {
+  font-size: 20px;
+  color: #18D9A2;
+}
+
+.painel_card .coluna_2 {
+  font-size: 15px;
+  color: #7a7a7a;
+}
+
+section a {
+    height: 42px;
+    background-color: whitesmoke;
+    color: #18D9A2;
+    font-size: 30px;
+    padding: 8px;
+    border-radius: 5px;
+    border-width: medium;
+    border-style: solid;
+    border-color: whitesmoke;
+    text-decoration: none;
+    box-sizing: border-box;
+    margin-left: 40px;
+    margin-bottom: 40px;
+}
+
+section a:hover {
+  background-color: #18D9A2;
+  font-weight: bold;
+  color: whitesmoke;
+}
+
+
+
+
+
+
+/*end body*/
+
+/*footer*/
+
+.centraliza_rodape   {
+    clear: both;
+}
+
+
+.centraliza_rodape footer{
+    height: auto;
+    color: #251840;
+    box-sizing: border-box;
+}
+.centraliza_rodape footer p{
+  padding-left: 40px;
+  padding-bottom: 18px;
+  padding-top: 17px;
+  font-size: 25px;
+}
+
+.centraliza_rodape footer li {
+  display: inline-block;
+  padding: 10px;
+  text-align: right;
+}
+
+
+.centraliza_rodape footer li img {
+float: right;
+}
+
+/*end footer*/
